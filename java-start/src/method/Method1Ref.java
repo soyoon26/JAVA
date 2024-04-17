@@ -1,6 +1,6 @@
 package method;
 
-public class method1Ref {
+public class Method1Ref {
     public static void main(String[] args) {
         // 계산1
         int sum1 = add(5,10);
@@ -9,6 +9,8 @@ public class method1Ref {
         // 계산2
         int sum2 = add(15,20);
         System.out.println("결과2 출력: " + sum2);
+
+        add(10,20); // 호출만 하는 것도 가능
     }
     //add 메서드
     public static int add(int a, int b) { // 메서드 선언, 반환타입, 메서드 이름, 파라미터

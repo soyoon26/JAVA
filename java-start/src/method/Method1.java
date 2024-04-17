@@ -1,6 +1,6 @@
 package method;
 
-public class method1 {
+public class Method1 {
     public static void main(String[] args) {
         // 계산1
         int a = 1;
